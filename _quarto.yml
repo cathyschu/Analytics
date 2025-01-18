@@ -5,6 +5,11 @@ website:
   title: "Analytics"
   navbar:
     left:
+    - text: "ISSS608 VAA"
+    menu: 
+      - text: "VAA Portfolio"
+        href: "vaa_portfolio.html"
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
