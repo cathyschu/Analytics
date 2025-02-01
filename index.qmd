@@ -1,15 +1,9 @@
 ---
 title: "Cathy's Analytics"
-brand:
-  color:
-    palette:
-      dark-grey: "#222222"
-      white: "#fdfefe"
-      grey: "#5d6d7e"
-      blue: "#ddeaf1"
-    background: blue
-    foreground: grey
-    primary: white
+format: 
+  html:
+    theme: cosmo
+    css: index_style.css
 ---
 
 Welcome to Cathy's Analytics page!
