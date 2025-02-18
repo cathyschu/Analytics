@@ -26,5 +26,40 @@
     "title": "Cathy Chu",
     "section": "",
     "text": "Multiple MNCs | Program Manager, Training instructor | Singapore"
+  },
+  {
+    "objectID": "R_workshop/Hands-on_7_slides.html#allows-to-separate-slides",
+    "href": "R_workshop/Hands-on_7_slides.html#allows-to-separate-slides",
+    "title": "R Series Episode 7: Creating Awesome Web Slides with Realjs",
+    "section": "##allows to separate slides",
+    "text": "##allows to separate slides\nTo make bullet points:\n\n\nbullet point 1\nbullet point 2"
+  },
+  {
+    "objectID": "R_workshop/Hands-on_7_slides.html#halo-plot",
+    "href": "R_workshop/Hands-on_7_slides.html#halo-plot",
+    "title": "R Series Episode 7: Creating Awesome Web Slides with Realjs",
+    "section": "Halo Plot",
+    "text": "Halo Plot"
+  },
+  {
+    "objectID": "R_workshop/Hands-on_7_slides.html#how-about-displaying-data-table",
+    "href": "R_workshop/Hands-on_7_slides.html#how-about-displaying-data-table",
+    "title": "R Series Episode 7: Creating Awesome Web Slides with Realjs",
+    "section": "How about displaying data table",
+    "text": "How about displaying data table\n\n\n\n\n\nID\nCLASS\nGENDER\nRACE\nENGLISH\nMATHS\nSCIENCE\n\n\n\n\nStudent321\n3I\nMale\nMalay\n21\n9\n15\n\n\nStudent305\n3I\nFemale\nMalay\n24\n22\n16\n\n\nStudent289\n3H\nMale\nChinese\n26\n16\n16\n\n\nStudent227\n3F\nMale\nChinese\n27\n77\n31\n\n\nStudent318\n3I\nMale\nMalay\n27\n11\n25\n\n\nStudent306\n3I\nFemale\nMalay\n31\n16\n16\n\n\nStudent313\n3I\nMale\nChinese\n31\n21\n25\n\n\nStudent316\n3I\nMale\nMalay\n31\n18\n27\n\n\nStudent312\n3I\nMale\nMalay\n33\n19\n15\n\n\nStudent297\n3H\nMale\nIndian\n34\n49\n37"
+  },
+  {
+    "objectID": "R_workshop/Hands-on_7_slides.html#how-about-displaying-data-table-1",
+    "href": "R_workshop/Hands-on_7_slides.html#how-about-displaying-data-table-1",
+    "title": "R Series Episode 7: Creating Awesome Web Slides with Realjs",
+    "section": "How about displaying data table",
+    "text": "How about displaying data table\n\n\n\n\n\nID\nCLASS\nGENDER\nRACE\nENGLISH\nMATHS\nSCIENCE\n\n\n\n\nStudent321\n3I\nMale\nMalay\n21\n9\n15\n\n\nStudent305\n3I\nFemale\nMalay\n24\n22\n16\n\n\nStudent289\n3H\nMale\nChinese\n26\n16\n16\n\n\nStudent227\n3F\nMale\nChinese\n27\n77\n31\n\n\nStudent318\n3I\nMale\nMalay\n27\n11\n25\n\n\nStudent306\n3I\nFemale\nMalay\n31\n16\n16\n\n\nStudent313\n3I\nMale\nChinese\n31\n21\n25\n\n\nStudent316\n3I\nMale\nMalay\n31\n18\n27\n\n\nStudent312\n3I\nMale\nMalay\n33\n19\n15\n\n\nStudent297\n3H\nMale\nIndian\n34\n49\n37"
+  },
+  {
+    "objectID": "R_workshop/Hands-on_7_slides.html#slide-with-tabset",
+    "href": "R_workshop/Hands-on_7_slides.html#slide-with-tabset",
+    "title": "R Series Episode 7: Creating Awesome Web Slides with Realjs",
+    "section": "Slide with tabset",
+    "text": "Slide with tabset\n\nThe codeThe plot\n\n\nfigure 1 - code chunk!\n\npacman::p_load(tidyverse, knitr, DT)\nexam_data &lt;- read_csv(\"data/Exam_data.csv\")\n\nggplot(data=exam_data, aes(x = MATHS)) +\n  geom_histogram(bins=10,\n                 boundary = 100,\n                 fill=\"pink\",\n                 color = \"grey70\") +\n  ggtitle(\"Distribution of Maths scores\")\n\n\n\nfigure 2 - chart!"
   }
 ]

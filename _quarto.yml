@@ -1,24 +1,57 @@
 project:
   type: website
+  output-dir: _site #for the logo to appear
 
 website:
-  title: "Analytics"
+  favicon: /images/dragon.svg
+  title: ""
+  page-footer: "Made with 💚 and Quarto"
+  announcement:
+    content: "**NEW**"
+    position: below-navbar
+    icon: rocket-takeoff-fill
+    type: light
+    background-color: "#d69a8d"
+      
   navbar:
+    logo: "images/dino.png"
     left:
-    - text: "ISSS608 VAA"
-      href: ISSS608/vaa_portfolio.html
+    - text: "SMU Course"
+      menu:
+      - text: "Visual Analytics"
+        href: https://cathyc.netlify.app/
+#      - text: "Data Analytics Lab"
+#        href: Hands-on_Ex/Hands-on_Ex01/Hands-on_Ex01.qmd
+#      - text: "Spreadsheet "
+#        href: Hands-on_Ex/Hands-on_Ex01/Hands-on_Ex01.qmd      
+      
+    - text: "Projects"
+      menu:
+      - text: "Visual Analytics"
+        href: index.qmd
+      - text: "Differemce in Gender Determinents in Ugandan Mobile Money Use"
+        href: index.qmd
+      - text: "Spreadsheet Modeling"
+        href: index.qmd
+        
     right:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    - href: index.qmd
+      text: "![](/images/house.svg)"
+    - href: about.qmd
+      text: "![](/images/person.svg)"
+
 
 format:
   html:
+    linkcolor: "#696e66"
     theme:
-      - flatly
+      - cosmo
       - brand
     css: styles.css
+    logo: dino.png
     toc: true
 
 editor: visual
 
+
+    

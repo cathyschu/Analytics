@@ -1,0 +1,136 @@
+---
+title: "R Series Episode 7: <br/>Creating Awesome Web Slides with Realjs"
+subtitle: ""
+author: Cathy C.
+institute: School of Computing and Information System, <br>Singapore Management University
+date: "2025-02-18 (updated: `r Sys.Date()"
+format: 
+  revealjs:
+    theme: default
+    width: 1600
+    height: 900
+execute:
+  echo: true
+  eval: true
+editor: visual
+---
+## ##allows to separate slides
+
+To make bullet points:
+
+::: incremental
+
+-   bullet point 1
+
+-   bullet point 2
+:::
+
+
+## Halo Plot
+
+```{r}
+#| echo: false
+#| fig-width: 4
+#| fig-height: 4
+
+pacman::p_load(tidyverse, knitr, DT)
+exam_data <- read_csv("data/Exam_data.csv")
+
+ggplot(data=exam_data, aes(x = MATHS)) +
+  geom_histogram(bins=10,
+                 boundary = 100,
+                 fill="pink",
+                 color = "grey70") +
+  ggtitle("Distribution of Maths scores")
+```
+
+---
+### Two columns Slides
+
+:::: columns
+::: {.column width = "50%"}
+figure 1 - code chunk!
+
+```{r}
+#| echo: false
+
+pacman::p_load(tidyverse, knitr, DT)
+exam_data <- read_csv("data/Exam_data.csv")
+
+ggplot(data=exam_data, aes(x = MATHS)) +
+  geom_histogram(bins=10,
+                 boundary = 100,
+                 fill="pink",
+                 color = "grey70") +
+  ggtitle("Distribution of Maths scores")
+```
+:::
+
+::: {.column width = "50%"}
+figure 2 - chart!
+
+```{r}
+#| eval: false
+
+pacman::p_load(tidyverse, knitr, DT)
+exam_data <- read_csv("data/Exam_data.csv")
+
+ggplot(data=exam_data, aes(x = MATHS)) +
+  geom_histogram(bins=10,
+                 boundary = 100,
+                 fill="pink",
+                 color = "grey70") +
+  ggtitle("Distribution of Maths scores")
+```
+:::
+::::
+
+## Slide with tabset
+
+::: panel-tabset
+## The code
+
+figure 1 - code chunk!
+
+
+```{r}
+#| eval: false
+pacman::p_load(tidyverse, knitr, DT)
+exam_data <- read_csv("data/Exam_data.csv")
+
+ggplot(data=exam_data, aes(x = MATHS)) +
+  geom_histogram(bins=10,
+                 boundary = 100,
+                 fill="pink",
+                 color = "grey70") +
+  ggtitle("Distribution of Maths scores")
+```
+
+
+## The plot
+figure 2 - chart!
+
+```{r}
+#| echo: false
+
+pacman::p_load(tidyverse, knitr, DT)
+exam_data <- read_csv("data/Exam_data.csv")
+
+ggplot(data=exam_data, aes(x = MATHS)) +
+  geom_histogram(bins=10,
+                 boundary = 100,
+                 fill="pink",
+                 color = "grey70") +
+  ggtitle("Distribution of Maths scores")
+```
+
+:::
+
+## How about displaying data table
+
+```{r}
+#| echo: false
+kable(head(exam_data, n=10))
+
+```
+

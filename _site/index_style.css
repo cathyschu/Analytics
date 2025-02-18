@@ -1,14 +1,19 @@
 /* Change the background colour of the body */
 body {
-    background-color: #fceff1;
-    font-family: Comic Sans MS;
-    color: #a3a2a2;
-    
+    background-color: #e0d4cc;
+    font-family: Avenir;
+    color:#0d0d0c;
+}
+
+/* Customize the announcement bar background color */
+.announcement-container {
+    background-color: #d69a8d !important;  
+    color: #ffffff !important;  
 }
 
 /* Customise headings */
 h1 {
-    color: #696266;
+    color: #0d0d0c;
 
 }
 

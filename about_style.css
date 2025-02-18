@@ -1,19 +1,18 @@
 /* Change the background colour of the body */
 body {
-    background-color: #fceff1;
-    font-family: Comic Sans MS;
-    color: #a3a2a2;
-
+    background-color: #e0d4cc;
+    font-family: Avenir;
+    color: #0d0d0c;
 }
 
 /* Change the menu bar background color */
 nav.navbar {
-    background-color: #f6c7cf; /* Replace with your desired color */
+    background-color: #696e66; 
 }
 
 /* Change the text color in the menu bar */
 nav.navbar a {
-    color: white; /* Replace with your desired text color */
+    color: #696e66; /* Replace with your desired text color */
 }
 
 /* Change the color of hovered menu items */

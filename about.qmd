@@ -20,11 +20,11 @@ about:
 ::: {#hero-heading}
 I've had the privilege of working in training, project & program management roles across both public institutions and the private sector. What I've enjoyed most about these diverse experiences is meeting incredible people, making lasting friendships, and constantly being inspired by new perspectives. This inspiration sparked my official journey into Analytics, a field I'm deeply passionate about. I'm always excited to explore both the possible and the impossible in this ever-evolving discipline.
 
-## [Education]{style="color:#6c696a"} 
+## [Education]{style="color:#6c696a"}
 
 **Singapore Management University** \| Masters of IT in Business \| Expected Dec 2025
 
-## [Experience]{style="color:#6c696a"} 
+## [Experience]{style="color:#6c696a"}
 
 **Multiple MNCs** \| Program Manager, Training instructor \| Singapore
 :::
